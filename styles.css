@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9; /*replace with HaChe beige*/
+    color: #222;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+header {
+    background: #222;
+    color: #fff; /*replace?*/
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 240px;
+    min-height: 160px;
+    display: block;
+}
+
+header h1 {
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    transform: translateX(-50%);
+    z-index: 1;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+header div {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: linear-gradient(rgba(30,30,30,0.6), rgba(30,30,30,0.6)), url ('img/placeholder.png') center/cover no-repeat;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
